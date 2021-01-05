@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 /*---- ESTABLISH YOUR OWN TYPOGRAPHIC HIERARCHY WHICH SHOULD BE BASED ON YOUR FONT CHOICES ----*/
 h1 {font-size: 4em; margin-bottom: .3em;}
-h2 {font-size: 2.75em; margin: 1em 0; color: #439ff6}
+h2 {font-size: 2.75em; margin: 1em 0; color: #AA96DA}
 h3 {font-size: 1.90em; margin: 3em 0 1em 0}
 
 p {font-size: 1.25em;
@@ -48,7 +48,7 @@ header h2 {
   padding-bottom: 1em;
 }
 
-.highlight {color: #439ff6}
+.highlight {color: #AA96DA}
 
 /*---------------- PORTFOLIO SECTION ------------------*/
 
@@ -96,13 +96,13 @@ li {
 /*---------------- BACKGROUNDS ----------------*/
 .background-colour {
     padding: 4em 0;
-    background: #103254;
-    color: #fafafa;}
+    background: #C5FAD5;
+    color: #333;}
 
 
 /*--------------------- STYLING LINKS -----------------*/
 a {
-  color: #439ff6;
+  color: #AA96DA;
   text-decoration: none;
 }
 
