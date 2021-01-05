@@ -40,6 +40,7 @@ header h1 {
   font-size: 5.25em;
   font-weight: bold;
   line-height: 1.2;
+ color: #333;
   }
 header h2 {
   font-family: 'Lobster', cursive;
@@ -120,11 +121,11 @@ a:hover {
 }
   
 .background-colour a {
-  color: rgb(150, 230, 254);
+  color: #AA96DA;
   text-decoration: none;}
 
 .background-colour a:hover {
-  color: #fafafa;
+  color: #FFFFD2;
   border-bottom: 1px dotted;}
 
 .portfolio a {
@@ -139,8 +140,8 @@ nav {
   top: 0;
   left: 0;
   margin: 0;
-  width: 90%;
-  background-color: #fff;
+  width: 100%;
+  background-color: #AA96DA;
   padding: 1em 0;
   font-size: 0.85em;}
 
@@ -157,10 +158,10 @@ nav ul li {
   background: none;}
 
 nav a:link {
-  color: #439ff6;}
+  color: #FFF;}
 
 nav a:visited {
-  color: #439ff6;}
+  color: #FFF;}
 
 nav a:hover {
   border-bottom: none;
@@ -188,7 +189,7 @@ footer {
   padding: 2em 0 8em 0;
   margin: auto;
   color: #fafafa;
-  background: #439ff6;
+  background: #AA96DA;
 }
 
 .connections{
