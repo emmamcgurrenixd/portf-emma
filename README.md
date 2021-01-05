@@ -1,3 +1,3 @@
 # IxD101 Portfolio Page - Emma McGurren
 
-[Portfolio](https://emmamcgurrenixd.github.io/portf-emma/.)
+[Portfolio](file:///Users/emmamcgurren/Documents/portf-emma/portf-emma.html)
