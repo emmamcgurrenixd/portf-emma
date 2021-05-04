@@ -146,13 +146,13 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: #AA96DA;
+  background-color: #fff;
   padding: 1em 0;
   font-size: 0.85em;}
 
 nav ul {
   padding-right: 15vw;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;}
   
@@ -163,14 +163,14 @@ nav ul li {
   background: none;}
 
 nav a:link {
-  color: #FFF;}
+  color: #06334E;}
 
 nav a:visited {
-  color: #FFF;}
+  color: #06334E;}
 
 nav a:hover {
   border-bottom: none;
-  color: #103254;
+  color: #A6EACA;
   transition: all 0.3s ease-in-out; } 
   
 .logo {
