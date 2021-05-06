@@ -108,6 +108,11 @@ li {
   width: 50%;
 }
 
+.skills {;
+  width: 100%;
+  object-fit: cover;
+}
+
 /*---------------- BACKGROUNDS ----------------*/
 
 .background-colour {
