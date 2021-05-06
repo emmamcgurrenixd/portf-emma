@@ -126,10 +126,6 @@ li {
 	float: right;
 }
 
-.projects {
-    background-color: #06334E;
-}
-
 
 
 
@@ -156,7 +152,7 @@ li {
 }
 
 .about-dark {
-	background-color: #fff;
+	background-color: #aae9cb;
 	padding-top: 30px;
 	margin-top: 60px;
 }
