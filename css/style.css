@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 h1 {font-size: 1.9em; margin-bottom: .3em;}
 h2 {font-size: 2.75em; margin: 1em 0; color: #AA96DA}
-h3 {font-size: 1.90em; margin: 3em 0 1em 0}
+h3 {font-size: 1.90em; margin: 2em 0 0 0}
 
 p {font-size: 1.25em;
   line-height: 1.5;
@@ -31,7 +31,6 @@ p {font-size: 1.25em;
 
 header {
   width: 80%;
-  font-family: 'Comfortaa', cursive;
   max-width: 900px;
   margin: auto;
   color: #fafafa;}
@@ -49,6 +48,12 @@ header h2 {
   line-height: 1.5;
   padding-bottom: 1em;
 }
+header h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.25em;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
 
 .highlight {color: #06334E}
 
@@ -57,6 +62,7 @@ header h2 {
 {
     position: center;
     margin-top: 10px;
+	width: 10%;
    
 }
 
@@ -64,18 +70,17 @@ header h2 {
 
 .portfolio h2 { max-width: 960px; margin: 3em auto;}
 .portfolio{
-  max-width: 800px;
+  max-width: 930px;
   margin: auto;
   padding: 40px 0;
   display: grid;
   grid-gap: 10px;
-
-
-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) ) ; 
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ; 
 }
  
 .portfolio h1 {
   text-align: center}
+
 
 li {
   position: relative;}
@@ -102,13 +107,37 @@ li {
   color: #fff
 }
 
+
+/*--------- Intro section ---------*/
+
+
+.top-dark {
+	background-color: #aae9cb;
+	padding: 50px;
+	height: 250px;
+}
+
+
+
+.wordmark {
+  display: block;
+  margin-left: 60px;
+  width: 40%;
+	float: right;
+}
+
+
+
+
+
 /*--------- About me section ---------*/
 
-.me: {
+
+.me {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin-left: 50px;
+  width: 30%;
+  float: right;
 }
 
 .skills {;
@@ -116,22 +145,16 @@ li {
   object-fit: cover;
   max-width: 800px;
   margin: auto;
-  padding: 40px 0;
+  padding: 10px 0;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) ) ; 
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr) ) ; 
 }
 
-.skills-title {
-  font-family: 'Comfortaa', cursive;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px 0;
-  font-size: 0.85em;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 0;
+.about-dark {
+	background-color: #aae9cb;
+	padding-top: 30px;
+	margin-top: 60px;
 }
  
 
@@ -178,24 +201,20 @@ a:hover {
   opacity: .8;}
 
 /*------------------- NAVIGATION ------------------*/
-nav {
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 100%;
-  background-color: #fff;
-  padding: 1em 0;
-  font-size: 0.85em;}
 
-nav ul {
-  padding-right: 15vw;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;}
+nav {
+ position: relative;
+padding-bottom: 50px;
+  margin: auto;
+  list-style: none;
+  width: 100%;
+  text-align: center;/*add text align-center*/
+  font-size: 1em;
+}
   
 
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin: 20px;
   background: none;}
 
@@ -227,11 +246,12 @@ img {
 /*---------------------------- FOOTER -----------------------------*/
 footer {
   text-align: center;
-  font-size: 0.707em;
+  font-size: 0.8em;
   padding: 2em 0 8em 0;
   margin: auto;
-  color: #fafafa;
+  color: #103254;
   background: #A6EACA;
+	
 }
 
 .connections{
@@ -260,7 +280,7 @@ footer {
   border-bottom: none;}
 
 .connections svg {
-      margin: 2em auto;}
+      margin: 0em auto;}
 
 .connections a:hover svg path {
       fill: #333;
@@ -276,7 +296,17 @@ footer .connections a:hover svg path {
   section {    
     width: 90%;
     margin: auto;}
+	
+	@media only screen and (max-width: 600px) {
+  p {    
+    font-size: 0.85em;}
 
+	@media only screen and (max-width: 600px) {
+  .top-dark {    
+    height: 175px;}
+		
+		
+		
 header {
       width: 90%;
       margin-left: .5em;
@@ -288,8 +318,6 @@ header p {font-size: 1.25em;}
 /* .portfolio {grid-template-columns: repeat(2, minmax(150px, 1fr)); }*/
 
 }
-
-
 
 
 
